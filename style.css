@@ -1,0 +1,83 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    line-height: 1.6;
+}
+
+header {
+    background-color: rgba(248, 13, 13, 0.616);
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+}
+
+#hero {
+    background-color: #ffca28; /* Golden yellow */
+    text-align: center;
+    color: #fff;
+    padding: 100px 0;
+}
+
+#hero h2 {
+    font-size: 36px;
+}
+
+
+
+.menu-item {
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item h3 {
+    font-size: 24px;
+    color: #e4400e; /* Coral orange */
+}
+
+.menu-item p {
+    margin-top: 10px;
+}
+
+.menu-item span {
+    font-size: 18px;
+    font-weight: bold;
+}
+body {
+    background-image: url('beach12.jpg'); /* Replace 'your-image.jpg' with your image file path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Optional: This keeps the background fixed while scrolling */
+    background-position: center center;
+}
